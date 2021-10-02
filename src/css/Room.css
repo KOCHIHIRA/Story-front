@@ -1,0 +1,190 @@
+.story {
+    display: flex;
+    height: 100vh;
+    width: 80rem;
+    margin: auto;
+}
+.story-contents {
+    height: 100%;
+    width: 80%;
+    margin-right: auto;
+    flex: 1;
+}
+.story-header {
+    height: 6rem;
+    width: 100%;
+    background-color: #a0c7f3;
+}
+.story-header-inner {
+    width: 95%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.story-roomname {
+    font-size: 1rem;
+    margin-right: auto;
+}
+.story-title {
+    font-size: 2rem;
+    margin-right: auto;
+}
+.room-out {
+    background-color: #fff;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    padding: 1rem;
+    cursor: pointer;
+}
+.favorite-icon svg {
+    height: 2rem;
+    width: 2rem;
+    fill: yellow;
+}
+
+.story-area-wrapper {
+    overflow: auto;
+    height: 80%;
+    padding: 1rem;
+    background-color: rgb(223, 209, 209);
+}
+.story-area-inner {
+    height: 100%;
+    width: 100%;
+}
+.story-sentence {
+    font-size: 1.25rem;
+    padding: 0.3em;
+    text-decoration: none;
+}
+
+.story-footer {
+    width: 100%;
+    padding: 0.5rem;
+    border-top: 1px solid rgb(182, 170, 170);
+}
+.story-footer-inner {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.footer-text {
+    font-size: 1.5rem;
+    padding: 0.5em;
+    width: 90%;
+}
+.write-button {
+    font-size: 1rem;
+    height: 100%;
+    padding: 1em;
+    width: 10%;
+    border-radius: 1rem;
+    border: 1px solid #009879;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.write-button:hover {
+    background-color: #009879;
+    color: #fff;
+}
+
+.page-num-content {
+    position: relative;
+    height: 2.5em;
+    width: 100%;
+    font-size: 1.25rem;
+    padding: 0.3em;
+}
+.page-num-inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page-num {
+    font-size: 1em;
+    width: 2em;
+    height: 2em;
+    text-align: center;
+}
+.page-scene {
+    display: flex;
+    vertical-align: center;
+    justify-content: center;
+}
+
+.none {
+    display: none;
+}
+
+
+
+
+/*UserListコンポーネント*/
+.userlist-active {
+    font-size: 1.5rem;
+}
+
+.userlist {
+    width: 18rem;
+    height: 100%;
+    background-color: rgb(221, 202, 168);
+}
+
+.userlist-header {
+    width: 100%;
+    height: 3rem;
+}
+
+.body{
+    width: 90%;
+    padding: 0.5rem;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 2px solid rgb(219, 148, 219)
+}
+
+.message {
+    font-size: 1rem;
+    padding: 0.5em;
+    margin: 0 auto 1em auto;
+    border: 1px solid #000000;
+    background-color: #fff;
+    border-radius: 0.3em;
+    overflow-x: hidden;
+}
+
+.message-text {
+    transform: translateX(100%);
+    animation: move 20s linear infinite
+}
+
+.enter-users {
+    text-align: center;
+    border-radius: 0.3em;
+    list-style-type: none;
+    border: 1px solid #000000;
+}
+
+.enter-users li {
+    margin-bottom: 1px;
+}
+
+.enter-users .list-item {
+    background-color: palegreen;
+}
+
+@keyframes move {
+    to { transform: translateX(-100%); }
+}

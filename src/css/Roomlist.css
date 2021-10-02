@@ -1,0 +1,149 @@
+.room {
+    height: 90vh;
+}
+.room-wrapper {
+    padding: 1rem 2rem;
+}
+
+
+.room-wrapper-active {
+    filter: blur(1.2rem);
+}
+.room-page-header {
+    width: 100%;
+}
+
+
+.search-box-wrapper {
+    width: 100%;
+    margin: 1.5rem 0;
+}
+.search-box-content {
+    font-size: 1rem;
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+    padding: 1.25em;
+    border-radius: 2em;
+    outline: none;
+    border: 1px solid grey;
+}
+
+.create-room {
+    font-size: 0.8rem;
+    width: 10em;
+    margin-left: auto;
+    margin-bottom: 2rem;
+    padding: 1em 1.25em;
+    border-radius: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(20, 102, 75);
+    border: 1px solid rgb(88, 245, 109);
+    cursor: pointer;
+}
+
+.logout-btn {
+    font-size: 0.8rem;
+    width: 10em;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: auto;
+    padding: 1em 1.25em;
+    color: rgb(20, 102, 75);
+    border: 1px solid rgb(88, 245, 219);
+    border-radius: 3em;
+    cursor: pointer;
+
+}
+
+.logout-btn:hover {
+    color: #fff;
+    background-color: rgb(88, 245, 219);
+}
+
+.create-room p {
+    margin-left: 0.5rem;
+}
+.create-room:hover {
+    color: #fff;
+    background-color: rgb(88, 245, 109);
+}
+
+.close {
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+}
+.showup {
+    border-radius: 2rem;
+    top: 50%;
+    opacity: 1;
+    visibility: visible;
+    transition: 0.5s;
+}
+
+.rooms {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+    grid-gap: 2rem;
+}
+
+.morelist-icon {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    cursor: pointer;
+}
+.more-icon {
+    width: 3rem;
+    height: 3rem;
+}
+
+
+.room-contents {
+    display: flex;
+    color: rgb(20, 102, 75);
+    flex-direction: column;
+    width: auto;
+    padding: 1rem 1.5rem;
+    align-items: center;
+    box-shadow: 0rem 0.25rem 0.5rem 0rem rgb(0, 0, 0, .2);
+}
+.room-contents-name {
+    align-self: flex-start;
+}
+.room-contents-title {
+    align-self: center;
+    text-align: center;
+    border: 2px solid grey;
+    width: 100%;
+    font-size: 1rem;
+    margin: 1em auto;
+    padding: 1rem;
+}
+.room-contents-owner {
+    align-self: center;
+    margin-top: 0.5rem;
+}
+.room-contents-button {
+    align-self: center;
+    font-size: 1rem;
+    margin: 1.25rem auto 0 auto;
+    padding: 0.4rem;
+    width: 50%;
+    text-align: center;
+    border-radius: 2rem;
+    outline: none;
+    cursor: pointer;
+    background-color: #fff;
+    color: rgb(20, 102, 75);
+    border: 1px solid rgb(245, 111, 88);
+}
+.room-contents-button:hover {
+    background-color: rgb(245, 111, 88);
+    color: #fff;
+}

@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home, .roomlist, .sign-up, .log-in {
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+}
+.form-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.session-dialog-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background:rgba(0,0,0,.4);
+    z-index: 4;
+    display: none;
+}
+.session-dialog {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 30rem;
+    padding: 0.2em 0.5em;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border: 1px solid grey;
+    display: none;
+    transition: 0.5s;
+    z-index: 5;
+}
+.session-dialog-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.session-dialog-word {
+    text-align: center;
+    border-bottom: 1px solid;
+    margin-bottom: 0.5rem;
+}
+.session-dialog-button {
+    font-size: 1.2rem;
+    width: 5em;
+    margin: 0 auto;
+    padding: 0.3em 0.8em;
+    border-radius: 1.5em;
+    text-align: center;
+    vertical-align: center;
+    background-color: #1a83ff;
+}
+.session-dialog-button:hover {
+    cursor: pointer;
+}
+
+.active {
+    display: block;
+    transition: 0.5s;
+}

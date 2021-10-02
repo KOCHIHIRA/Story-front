@@ -1,0 +1,39 @@
+.form-wrapper {
+    width: 30rem;
+    padding: 2rem 3rem;
+    box-shadow:5px 5px 10px;
+    border-radius: 1rem;
+}
+.form-label {
+    font-size: 2rem;
+    margin: 0 auto;
+}
+.err-message {
+    color: firebrick;
+}
+.form-name,
+.form-password,
+.form-mail {
+    font-size: 1rem;
+    border-radius: 0.3em;
+    padding: 0.8em;
+    margin-top: 0.5em;
+}
+.form-name:focus,
+.form-password:focus,
+.form-mail:focus {
+    outline: none;
+    border-color: cyan;
+}
+.form-submit {
+    color: floralwhite;
+    font-size: 1rem;
+    border-radius: 0.3em;
+    background-color: cyan;
+    padding: 0.3em 0.5em;
+    margin-bottom: 0.5em;
+}
+.link {
+    font-size: 1rem;
+    margin-left: auto;
+}

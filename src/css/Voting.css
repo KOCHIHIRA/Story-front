@@ -1,0 +1,104 @@
+.voting {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+}
+.voting-sample {
+    margin-left: auto;
+    width: 20rem;
+    height: 10rem;
+}
+.sample-view {
+    font-size: 1.5rem;
+    text-align: center;
+    vertical-align: middle;
+}
+.voting-object {
+    height: 30rem;
+    width: 40rem;
+    margin-bottom: 5rem;
+}
+.navtab {
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.navtab-item {
+    width: 100%;
+    padding: 0.25em;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #fff;
+    color: #bec5cf;
+}
+.nav-link {
+    display: block;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+.voting-contents {
+    position: relative;
+    padding: 1rem;
+    overflow: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+    grid-gap: 2rem;
+    border-radius: 3px;
+}
+.voting-item {
+    display: flex;
+    padding: 0.3rem;
+    flex-direction: column;
+    height: auto;
+    color:rgb(20, 102, 75);
+    box-shadow: 0rem 0.25rem 0.5rem 0rem rgb(0, 0, 0, .2);
+    border-radius: 1.5rem;
+}
+.voting-name {
+    font-weight: 800;
+    padding: 0.3rem;
+}
+.voting-title {
+    font-size: 1.25rem;
+    text-align: center;
+    margin: 0.5em 0;
+}
+.voting-vote {
+    padding: 0.2rem;
+    text-align: center;
+}
+.voting-button {
+    display: block;
+    width: 50%;
+    margin: auto;
+    color: rgb(20, 102, 75);
+    text-align: center;
+    padding: 0.5rem;
+    outline: none;
+    border: 1px solid rgb(222, 224, 57);
+    border-radius: 1.5rem;
+    cursor: pointer;
+    background-color: #fff;
+}
+.voting-button:hover {
+    background-color: rgb(222, 224, 57);
+    color: #fff;
+}
+
+.fav-noting {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.nav-active {
+    background-color: rgb(76, 192, 192);
+    color: #fff
+}
