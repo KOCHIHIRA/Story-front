@@ -1,11 +1,23 @@
-# アプリの概要
+## アプリの概要
+オンラインでユーザー同士が連想しながら物語を作り上げるアプリケーション
+
+## アプリを作ろうと思った理由
+何かアプリを開発したいと考えた時、自分の好きな事や理由を書き出してみた結果「他人の考えている事に興味がある」なんじゃないかという事が分かったので連想しながら物語を作り上げるアプリを開発しました。
+
+## アプリの機能一覧
+・ユーザー登録機能
+・ユーザー認証機能
+・ルーム作成機能
+・ランキング機能
+・投票機能
+
+## アプリのフロントエンド開発で苦労した点
+Reactを触るのが初めてで、あまりjavascript自体も触ったことが無かったで１からネットで調べながら開発することが苦労しました。
 
 
 
 
-
-
-# Getting Started with Create React App
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
